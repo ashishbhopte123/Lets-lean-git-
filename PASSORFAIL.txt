@@ -1,0 +1,9 @@
+T=int(input())
+int 
+for each in range(T):
+    N,X,P=[int(x) for x in input().split()]  # this is  the way to take multiple input in single line
+    K=N-X
+    if(X*3-K>=P):
+        print("PASS")
+    else:
+        print("FAIL")
