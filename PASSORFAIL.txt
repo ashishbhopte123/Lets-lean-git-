@@ -6,4 +6,4 @@ for each in range(T):
     if(X*3-K>=P):
         print("PASS")
     else:
-        print("FAIL")
+        print("FAIL")  # this will going to print the FAIL
